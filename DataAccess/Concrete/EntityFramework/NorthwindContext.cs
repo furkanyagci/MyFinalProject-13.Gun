@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Product> Products { get; set; }//DbSet Db tablosunu hangi alana bağlayacağını gösteriyor.Burada Dbdeki Products alanına Entitiesdeki Product class'ına bağla diyoruz.Hangi tabloya ne karşılık gelecek onu belirtiyoruz.
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
-
+        public DbSet<Order> Orders { get; set; }
 
 
     }
