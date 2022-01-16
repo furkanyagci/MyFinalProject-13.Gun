@@ -7,10 +7,10 @@ namespace Core.Utilities.Results
     public class Result : IResult
     {
         
-        public Result(bool success, string message):this(success)//:this(success) Result'ın tek parametreli olan Constructer'ına success yolla demek bu kodla aşağıdaki Constructer'da çalışır.2 parametreli gönderirsen otomatik olacak aşağıdaki Constructer'da çalışır.
+        public Result(bool success, string message):this(success)//:this(success) Result'ın tek parametreli olan Constructor'ına success yolla demek bu kodla aşağıdaki Constructor'da çalışır.2 parametreli gönderirsen otomatik olacak aşağıdaki Constructor'da çalışır.
         {
-            Message = message;//Message sadece get idi ama burada set ettik.get ReadOnly'dir Readonly'ler Constructor'da set edilebilir.Constructer dışında set etmeyeceğimiz için set yazmadık aşağıda. *** NOT: Sektörde eksik kalan bir konudur.
-            //Success = success; bunu sildi hoca aşağıdaki Constructer'ıda çalıştırdı
+            Message = message;//Message sadece get idi ama burada set ettik.get ReadOnly'dir Readonly'ler Constructor'da set edilebilir.Constructor dışında set etmeyeceğimiz için set yazmadık aşağıda. *** NOT: Sektörde eksik kalan bir konudur.
+            //Success = success; bunu sildi hoca aşağıdaki Constructor'ıda çalıştırdı
         }
 
         //Hem yukarıdaki Constructor da hemde aşağıdakinde Success = success; yazarak Dont Repeat Yourself(kendimi tekrar etme) kuralını ihlal etmiş oldum. 

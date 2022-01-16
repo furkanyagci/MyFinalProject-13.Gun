@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Core.Utilities.Results
 {
-    public class SuccessDataResult<T> : DataResult<T>
+    public class SuccessDataResult<T> : DataResult<T>//DataResult'ın İşlem Başarılı mesajı ve datayı döndüren hali
     {//Bunlar versiyonlar. Bunlar kullanıcıya bir sürü imkan veriyorsun sadece Data verebilirsin istersen sadece mesaj verebilirsin vs.
         public SuccessDataResult(T data, string message) : base(data, true, message)
         {

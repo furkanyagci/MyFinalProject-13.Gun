@@ -30,7 +30,10 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());//EfProdcutDal yazdıktan sonra buraya yazdık. Bu PnP oldu yani tak çalıştır. Diğer hiçbir katmana dokunmadık EfProdcutDal oluşturduk ve buraya yazdık.Sitem bir anda EntityFramework altyapısına dönmüş oldu.
-            foreach (var product in productManager.GetProductDetails())
+
+
+
+            foreach (var product in productManager.GetProductDetails().Data)//.Data yazmazsan hata veriyor
             {
                 Console.WriteLine(product.ProductName+" - "+product.CategoryName);
             }
