@@ -10,6 +10,9 @@ namespace Entities.Concrete
     {
         public int ProductID { get; set; }
         public int CategoryID { get; set; }
+
+        //[Required]// Entity'lere validation'lara karşılık gelen veriler buraya yazılırsa SOLID'e aykırı kod yazmış oluruz.Buraya yazmak yerine .NET dünyasında olduğu gibi business'a klasör oluşturup(ValidationRules) içine yazarız.
+        //[MinLength(2)]
         public string ProductName { get; set; }
         public short UnitsInStock { get; set; } //short int'in bir küçüğü
         public decimal UnitPrice { get; set; }
