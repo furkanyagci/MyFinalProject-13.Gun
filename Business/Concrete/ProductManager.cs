@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -60,7 +61,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
-        [ValidationAspect(typeof(ProductValidator)]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir bu.
+        [ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
 
         public IResult Add(Product product)
         {
@@ -91,7 +92,7 @@ namespace Business.Concrete
             }
             */
 
-            ValidationTool.Validate(new ProductValidator(),product);
+            //ValidationTool.Validate(new ProductValidator(),product);//Buna gerek kalmadı bu metod üstünde Attribute ekledik.
             //Loglama
             //Performans
             //transaction
@@ -101,8 +102,6 @@ namespace Business.Concrete
             //github > Engindemiroğ > NetCoreBackend/Core/Utilities/ Interceptors klasörünü aldık buradaki kodlar uzun old. için yazılı olanı aldık zaman kazandık.
             //AOP nedir : örn metotları loglamak istiyorsun veya hata verince çalışmasını istediğin kodların varsa onları AOP yöntemiyle güzelce dizayn edebilirsin. Uygulamalarda sürekli try catch yada log yazmak zorunda kalmazsın. Bu yönteme Interceptors(araya girmek demek) deniyor.Metot'un başında sonuda araya girebilirsin.
             //Core katmanı Utilities klasörü altına Interceptors klasörü ekle içine
-
-
 
             _productDal.Add(product);
 
