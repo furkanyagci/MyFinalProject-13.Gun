@@ -1,8 +1,10 @@
 ﻿using Business.Abstract;
+using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -16,16 +18,19 @@ namespace Business.Concrete
 {//*** Bir iş sınıfı başka sınıfları new'lemez
     public class ProductManager : IProductService
     {
+        //*** NOT : Bir entity manager kendisi hariç başka Dal'ı enjecte edemez. Yani ProductManager IProductDal hariç başka bir Dal'ı enjecte edemez. Başka Tablodanki verilere ulaşmak için o tablonun Business katmanındaki Service'i kullanılır. örn. kategori tablosundan veri almak için ICategoryDal KULLANILMAZ ICategoryService kullanılabilir. ICategoryService bunlara servis dememizin sebebi bir kere yaz ona ait kuralları oraya koy başkası bunu kullanmak istiyorsa bunu kullansın.Bu kısmı Tekrar dinlemek istersen 13.Gün videosunun 2:40:00 dk den sonrasını izle.
         IProductDal _productDal;
-
-        public ProductManager(IProductDal productDal)
+        //ICategoryDal _categoryDal; // *** NOT: Bir managerden başka manager kullanılacaksa onun Interface'i kullanılır.Burada IcategoryDal yerine ICategoryService kullanmalıyım.
+        ICategoryService _categoryService;
+        public ProductManager(IProductDal productDal, ICategoryService categoryService/*,ICategoryDal categoryDal*/)//*** Yıldızlı NOT : Bir Entity Manager kendisi hariç başka Dal'ı enjecte edemez
         {
             _productDal = productDal;
+            //_categoryDal = categoryDal;
+            _categoryService = categoryService;
         }
 
-        public void IResult(Product product)//İşlem ile ilgili bilgilendirme yapmak istiyorum örn: ürün eklendi yada eklenmedi
+        public void IResult(Product product)
         {
-            //business codes - iş kodları buraya yazılır sonra db'ye kaydedilir yada uyarı verilir.Herhangi bir filtreleme varsa burada yapılır.
             throw new NotImplementedException();
         }
 
@@ -61,51 +66,81 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
-        [ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
-
+        //Aspect Oriented Programming (AOP)
+        //[ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
         public IResult Add(Product product)
         {
-            //business code ayrı validation code ayrı yerlere koyacaksınız.
-            /*validation : Doğrulama bir nesnenin iş kurallarına dahil etmek için bu nesnenin yapısal olarak uygun olup olmadığını kontrol etmeye validation(doğrulama) denir. Örn : Şifre şuna uymalı veya ismin min 2 karakter olmalı. Product için girilen verinin yapısal uyumuyla alakalı olan herşeye doğrulama denir min kaç karakter olabilir maximum kaç karakter olabilir vb.
-            Business(iş) kuralları ise bizim iş gereksinimlerimize uygunluktur. Örn: Ehliyet alacaksınız bir kişiye ehliyet verip vermemeyi kontrol ettiğiniz yer burasıdır. ilk yardımdan 70 almış motordan 70 almış gibi iş kurallarını burada yazarız. 
-             */
+            /*Cross Cutting Concerns : Katmanlı mimarilerde bu katmanları dikine kesen ilgi alanlarımız var.Uygulamayı dikine kesen ilgi alanları diye çeviriyormuş Engin hoca.
+             * Bunlar aşağıdakilerdir.
+             * Validation
+             * Log
+             * Cache
+             * Transaction
+             * Authorization
+             * vb.
+            */
 
-            //ValidationRules içine FluentValidation klasörü oluştur. Sonra NuGet'tan FluentValidation yükle version 9.5.1 
-
-            //if (product.ProductName.Length < 2)//bunu sildi hoca çünkü ProductValidator ekledik Business katmanına onu kullanacağız.
+            /*Bir kategoride en fazla 10 ürün olabilir kodunu yazınız. Aşağıdaki gibi yazarsak yanlış yoldayızdemektir. Bu şekilde spagetti kod olur. Oyüzden bu kodu CheckIfProductCountOfCategoryCorrect() oluşturup içine yazdık.
+            Bir iş kuralı yazacaksan baştan en alttaki gibi private metot içine yazarsın iş kuralı parçacığı old. için. Aşağıda CheckIfProductCountOfCategoryCorrect() metotduna bak
+            */
+            //var result = _productDal.GetAll(p => p.CategoryID == product.CategoryID).Count;
+            //if (result >= 10)
             //{
-            //    return new ErrorResult(Messages.ProductNameInvalid);//  ErrorResult("Ürün isim en az 2 karakter olmalı") = magic strings.Bu şekilde kullanım kötü koddur antipatterndir. Biz kodlarımızın içine böyle stringle yazmayacağız.Messages.cs bunun için açtık ve temel mesajlarımız onun içinde 
+            //    return new ErrorResult(Messages.ProductCountOfCategoryError);
             //}
 
-            /*Cross Cutting Concerns - Uygulamayı dikine kesen ilgi alanları.
-             * Örn Loglama, Cache,Transaction, Authorization(yetkilendirme) bunlara Cross Cutting Concerns denir.Validation da CCC'dir.
-             * Bunun için Core katmanına Cross Cutting Concerns klasörü ekledik içine Validation klasörü ekledik
-            */
-
-            /* Bu kod refactoring edildi. Bu yapı bütün projelerimde kullanacağım için Core Katmanına ValidationTool içine taşındı
-            var context = new ValidationContext<Product>(product);//ValidationContext class'ı using FluentValidation den geliyor biz oluşturmadık.Doğrulama context'i oluştur.
-            ProductValidator productValidator = new ProductValidator();
-            var result = productValidator.Validate(context);//Doğrula(Calidate) ProductValidator class'ını. Context nesnesi ValidationContext'te gönderdiğim class yani product.
-            if (!result.IsValid)//Eğer false dönerse hata fırlatacak.
+            //Yarın öbür gün yeni bir iş kuralı mı geldi? aşağıdaki metotların oraya yaz buraya virgül koyup ekle hiçbir yeri değiştirmene gerek yok.
+            IResult result = BusinessRules.Run(CheckIfProductNameExist(product.ProductName), CheckIfProductCountOfCategoryCorrect(product.CategoryID), CheckIfCategoryLimitExceded());
+            //iş kurallarını BusinessRules daki Run metoduna gönderiyoruz dönen sonuç null değilse gelen veriyi dönderiyoruz.
+            if (result != null)
             {
-                throw new ValidationException(result.Errors);
+                return result;
             }
-            */
+            return new ErrorResult(result.Message);
 
-            //ValidationTool.Validate(new ProductValidator(),product);//Buna gerek kalmadı bu metod üstünde Attribute ekledik.
-            //Loglama
-            //Performans
-            //transaction
-            //yetkilendirme(Authorization)
-            //Bunların hepsini burada yazmak yerine metot üstüne bir Attribute yazarak yapmak daha temiz kod yazmamıza sebeb olur.
+            ////Core > Utilities > Business klasörü oluşturduk iş kurallarını bunun içine yazacağız. Aşağıdaki koda gerek kalmadı
+            //if (CheckIfProductCountOfCategoryCorrect(product.CategoryID).Success && CheckIfProductNameExist(product.ProductName).Success)
+            //{
+            //    _productDal.Add(product);
 
-            //github > Engindemiroğ > NetCoreBackend/Core/Utilities/ Interceptors klasörünü aldık buradaki kodlar uzun old. için yazılı olanı aldık zaman kazandık.
-            //AOP nedir : örn metotları loglamak istiyorsun veya hata verince çalışmasını istediğin kodların varsa onları AOP yöntemiyle güzelce dizayn edebilirsin. Uygulamalarda sürekli try catch yada log yazmak zorunda kalmazsın. Bu yönteme Interceptors(araya girmek demek) deniyor.Metot'un başında sonuda araya girebilirsin.
-            //Core katmanı Utilities klasörü altına Interceptors klasörü ekle içine
+            //    return new SuccessResult(Messages.ProductAdded);//SuccessResult() Boş gönderirsek true olur.SuccessResult.cs incele
+            //}
+            //return new ErrorResult();
+        }
 
-            _productDal.Add(product);
+        //Eğer mevcut kategori sayısı 15'i geçtiyse sisteme yeni ürün eklenemez.Bu soruda mantık aramayın amaç farklı tablodan veri alma denemesi yapma. *** NOT : Bu tip işlemde yani başka tablodan veri alacaksan injection yaparsın ama o tablonun _categoryDal'ı değil _categoryService kullanarak yaparsın.
+        private IResult CheckIfCategoryLimitExceded()
+        {
+            var result = _categoryService.GetAll().Data.Count;
+            if (result > 15)
+            {
+                return new ErrorResult(Messages.CategoryLimitExceded);
+            }
 
-            return new SuccessResult(Messages.ProductAdded);//SuccessResult() Boş gönderirsek true olur.SuccessResult.cs incele
+            return new SuccessResult();
+        }
+
+        //Aynı isimde ürün eklenemez
+        private IResult CheckIfProductNameExist(string productName)
+        {
+            var result = _productDal.GetAll(p => p.ProductName == productName);
+            if (result == null)
+            {
+                return new SuccessResult();
+            }
+            return new ErrorResult(Messages.ProductNameAlreadyExists);
+        }
+
+        //Spagetti koda dönüşmemesi için bu şekilde yazdık bu iş parçacığını
+        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)//iş kuralı parçacığı olduğu için Product yerine int bir parametre yazdık.
+        {
+            //Aşağıdaki kod veritabanında Select count(*) from products where categoryID=categortId bu sorguyu çalıştırır.
+            var result = _productDal.GetAll(p => p.CategoryID == categoryId).Count;
+            if (result >= 10)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+            return new SuccessResult();
         }
     }
 }
