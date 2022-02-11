@@ -81,7 +81,7 @@ namespace Business.Concrete
             */
 
             /*Bir kategoride en fazla 10 ürün olabilir kodunu yazınız. Aşağıdaki gibi yazarsak yanlış yoldayızdemektir. Bu şekilde spagetti kod olur. Oyüzden bu kodu CheckIfProductCountOfCategoryCorrect() oluşturup içine yazdık.
-            Bir iş kuralı yazacaksan baştan en alttaki gibi private metot içine yazarsın iş kuralı parçacığı old. için. Aşağıda CheckIfProductCountOfCategoryCorrect() metotduna bak
+            Bir iş kuralı yazacaksan baştan en alttaki gibi private metot içine yazarsın iş kuralı parçacığı old. için. Aşağıda CheckIfProductCountOfCategoryCorrect() metotduna bak.
             */
             //var result = _productDal.GetAll(p => p.CategoryID == product.CategoryID).Count;
             //if (result >= 10)
