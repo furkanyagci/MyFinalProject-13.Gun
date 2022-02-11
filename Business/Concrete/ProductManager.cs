@@ -70,7 +70,7 @@ namespace Business.Concrete
         //[ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
         public IResult Add(Product product)
         {
-            /*Cross Cutting Concerns : Katmanlı mimarilerde bu katmanları dikine kesen ilgi alanlarımız var.Uygulamayı dikine kesen ilgi alanları diye çeviriyormuş Engin hoca.
+            /*Cross Cutting Concerns : Katmanlı mimarilerde bu katmanları dikine kesen  ilgi alanlarımız var.Uygulamayı dikine kesen ilgi alanları diye çeviriyormuş Engin hoca.
              * Bunlar aşağıdakilerdir.
              * Validation
              * Log

@@ -19,7 +19,7 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<ProductManager>().As<IProductService>().SingleInstance(); 
             builder.RegisterType<EfProductDal>().As<IProductDal>().SingleInstance();
 
-            //aşağıdaki 2 builder'ı 13.Gün sonunda yapılan değişikler için ekledik yoksa injection hatası verir.
+            //aşağıdaki 2 builder'ı 13.Gün sonunda yapılan değişikler için ekledik yooksa injection hatası verir.
             builder.RegisterType<CategoryManager>().As<ICategoryService>().SingleInstance();
             builder.RegisterType<EfCategoryDal>().As<ICategoryDal>().SingleInstance();
 

@@ -13,7 +13,7 @@ namespace Core.Utilities.Business
             {
                 if (!logic.Success)//kurala uymayan varsa
                 {
-                    return logic;//uymayan kuralı döndür
+                    return logic;//uymayan kuralı döndürür.
                 }
             }
             return null;
