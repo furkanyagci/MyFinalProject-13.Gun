@@ -29,6 +29,7 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Buradaki yapýmýzý Autofac'e çevirdik. Autofac aþaðýdaki instance üretimini bizim adýmýza yapacak hemde bize AOP desteði sunacak.
             services.AddControllers();
             //services.AddSingleton<IProductService, ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();//IoC yapýlandýrmayý yani hangi interface'in karþýlýðý nedir yapýlandýrmasýný WebAPI'de yaparsak ileride bu projeye bir API daha eklersek yada bambaþka bir servis mimarisi eklemek istersek bütün konfigurasyonumuz WebAPI de kalýyor o yüzden bu yapýlanmayý bu Starup.cs de deðilde daha backend'de yapmalýyýz oda Autofac'dir. Business sað týk NuGet autofac yaz 6.1 version kur. sonra autofac.extras yaz Autofac.Extras.DynamicProxy yazaný seç 6.0.0 versiyonunu kur. Straup.cs yapýtýðýmýz iþlemleri Business katmanýna taþýyacaðýz.
