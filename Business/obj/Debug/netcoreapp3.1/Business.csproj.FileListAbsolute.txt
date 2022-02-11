@@ -1,0 +1,117 @@
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete

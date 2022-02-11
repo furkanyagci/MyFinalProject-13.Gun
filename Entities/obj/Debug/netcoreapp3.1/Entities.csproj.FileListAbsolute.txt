@@ -1,0 +1,88 @@
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

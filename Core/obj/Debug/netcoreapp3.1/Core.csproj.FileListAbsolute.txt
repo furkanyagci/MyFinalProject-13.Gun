@@ -1,0 +1,58 @@
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject - Kopya\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 9.Gun - Kopya\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 10.Gun\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 11.Gun\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.pdb
