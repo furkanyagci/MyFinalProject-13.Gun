@@ -7489,11 +7489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7514,17 +7514,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Business\\Business.csproj"
+            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Business\\Business.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj"
+            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj"
+            "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj"
             }
           }
         }

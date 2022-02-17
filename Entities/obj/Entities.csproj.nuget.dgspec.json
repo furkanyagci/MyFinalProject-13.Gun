@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj": {}
+    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj": {
+    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj": {
+    "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,8 +112,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Core\\Core.csproj"
+              "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Core\\Core.csproj"
               }
             }
           }

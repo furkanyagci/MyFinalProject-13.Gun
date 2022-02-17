@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19aSnZ0YcpupdixN5IdWE8ihp2vB7Xgq3W86/gOfPNzcA8tW35HjKW3XEExPIj5+uMmyaQLLB0bG9Ju6g3/y5w==",
+  "dgSpecHash": "nQ8DYbZbim7dh/rJZ1sw2s9P+KsBEVpJ2/AjuMVFcLHVRBgM5afD9TZ0U3zYzLExIqIQfAuf342xLYz0JefGeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

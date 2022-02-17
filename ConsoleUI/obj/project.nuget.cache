@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nc6LlxfQhsj/zLrzCLv3nd2TYC5psBCXmeS/mUcw3w8EVZGI75y338n5H6KqivvLlZxJ12UZxeAy3MUjc2bNhg==",
+  "dgSpecHash": "jw8w4PkpVQHll8CPNUnnr/b4K+fU8FkSoR+xUJMPFiF0Ju/a/CcpShIzy24JdcYt625TIN+13TgLSbPIRy5fSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

@@ -66,6 +66,8 @@ namespace Business.Concrete
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
+        //14.Gün dersleri başında Northwind db de Users, OperationClaims, UserOperationClaims adında tablolar oluşturduk. Sonra
+
         //Aspect Oriented Programming (AOP)
         //[ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
         public IResult Add(Product product)

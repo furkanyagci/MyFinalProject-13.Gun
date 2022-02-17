@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wZFRyYL+qimytfcwA4moBB0WyxJacpaFnAWFQb7SbUgMXHXru902xqzFBrIkvyVrYk1YMHnAt5iZGPKAUqLzng==",
+  "dgSpecHash": "ncs9xZlbGDf/HJuHIdNls8g3BEcq9QUlOTodGS4zlGgsovgJcXQ3e/KFd0Xoo2coV3s3Ol1ln++sUfAF59CxSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 13.Gun\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Kodlama.ioDersleri\\MyFinalProject 14.Gun\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",

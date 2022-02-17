@@ -50,6 +50,7 @@ C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 12.Gun\Core\obj\Debug\ne
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.deps.json
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.dll
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\Kodlama.ioDersleri\MyFinalProject 13.Gun\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
