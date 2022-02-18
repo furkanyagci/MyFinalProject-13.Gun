@@ -5,3 +5,7 @@ Northwind Db de Users, OperationClaims, UserOperationClaims adında 3 adet tablo
 Sonra appsettings.json aç içindeki notları oku.
 
 Sonra Core katmanında Utilities klasörü içine Security klasörünü ve içindekileri oluştur.
+
+Sonra engin demiroğ github dan NetCoreBackend/Core/Utilities/Security/Jwt/ içindeki bazı kodları kopyala yapıştı ile projeye dahil ettik daha hızlı ilermek için.
+
+Sonra Core katmanına Extensions kalsörü ve içindekini githubdan kopyalıp ekledik.

@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
@@ -68,8 +69,11 @@ namespace Business.Concrete
 
         //14.Gün dersleri başında Northwind db de Users, OperationClaims, UserOperationClaims adında tablolar oluşturduk. Sonra
 
+
+        [SecuredOperation("product.add,admin")]
+
         //Aspect Oriented Programming (AOP)
-        //[ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
+        [ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
         public IResult Add(Product product)
         {
             /*Cross Cutting Concerns : Katmanlı mimarilerde bu katmanları dikine kesen  ilgi alanlarımız var.Uygulamayı dikine kesen ilgi alanları diye çeviriyormuş Engin hoca.
