@@ -1,0 +1,3 @@
+bu proje 15. gün eğitimde eklenenler ile değişmiştir ilk proje sadece 8.Günde yapılanlardır.
+
+*** Db de Users tablosunda PasswordHash PasswordSalt alanlarını varbinary(500) yapınca şifre hatalı mesajı verme hatası düzelti verileri sağlıklı karşılaştırdı. Bu alanlar önceden binary(500) dü.

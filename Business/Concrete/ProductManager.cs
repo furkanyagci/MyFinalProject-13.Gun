@@ -4,6 +4,9 @@ using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Aspects.Caching;
+using Core.Aspects.Performance;
+using Core.Aspects.Transaction;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
@@ -13,6 +16,7 @@ using Entities.DTOs;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -35,6 +39,8 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
+
+        [CacheAspect] //key, value //Bu işlem için Core > CrossCuttingConcerns > Caching >
         public IDataResult<List<Product>> GetAll()
         {
             //iş kodları
@@ -52,6 +58,7 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryID == id));
         }
 
+        [CacheAspect]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductID == productId));
@@ -74,6 +81,7 @@ namespace Business.Concrete
 
         //Aspect Oriented Programming (AOP)
         [ValidationAspect(typeof(ProductValidator))]//Bu metodu doğrula ProductValidatordaki kurallara göre demektir.
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
             /*Cross Cutting Concerns : Katmanlı mimarilerde bu katmanları dikine kesen  ilgi alanlarımız var.Uygulamayı dikine kesen ilgi alanları diye çeviriyormuş Engin hoca.
@@ -102,9 +110,12 @@ namespace Business.Concrete
             {
                 return result;
             }
-            return new ErrorResult(result.Message);
 
-            ////Core > Utilities > Business klasörü oluşturduk iş kurallarını bunun içine yazacağız. Aşağıdaki koda gerek kalmadı
+            _productDal.Add(product);
+
+            return new SuccessResult(Messages.ProductAdded);
+
+            ////Core > Utilities > Business klasörü oluşturduk iş kurallarını bunun içinde kontrol edeceğiz. Aşağıdaki koda gerek kalmadı
             //if (CheckIfProductCountOfCategoryCorrect(product.CategoryID).Success && CheckIfProductNameExist(product.ProductName).Success)
             //{
             //    _productDal.Add(product);
@@ -115,6 +126,25 @@ namespace Business.Concrete
         }
 
         //Eğer mevcut kategori sayısı 15'i geçtiyse sisteme yeni ürün eklenemez.Bu soruda mantık aramayın amaç farklı tablodan veri alma denemesi yapma. *** NOT : Bu tip işlemde yani başka tablodan veri alacaksan injection yaparsın ama o tablonun _categoryDal'ı değil _categoryService kullanarak yaparsın.
+
+        [TransactionScopeAspect]
+        [PerformanceAspect(5)]//bu meotdun çalışması 5 sn. geçerse beni uyar. *** Bunu bizim Core katmanındaki İnterceptorlarımızın old. yere koyarsak sistemde herşeyi takip eder.
+        public IResult AddTransactionalTest(Product product)//Sql deki Transaction mantığını kurgulamak için bu metodu yazdık.
+        {//Bu metot içine try catch bloğu yazma yerine üsteki Aspectti yazdık ve farklı yerlerdede kullanabiliriz.
+
+            Add(product);
+            if (product.UnitPrice<10)
+            {
+                throw new Exception("");
+            }
+
+            Add(product);
+
+            return null;
+
+        }
+
+
         private IResult CheckIfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll().Data.Count;
@@ -129,12 +159,12 @@ namespace Business.Concrete
         //Aynı isimde ürün eklenemez
         private IResult CheckIfProductNameExist(string productName)
         {
-            var result = _productDal.GetAll(p => p.ProductName == productName);
-            if (result == null)
+            var result = _productDal.GetAll(p => p.ProductName == productName).Any();
+            if (result)
             {
-                return new SuccessResult();
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
-            return new ErrorResult(Messages.ProductNameAlreadyExists);
+            return new SuccessResult();
         }
 
         //Spagetti koda dönüşmemesi için bu şekilde yazdık bu iş parçacığını

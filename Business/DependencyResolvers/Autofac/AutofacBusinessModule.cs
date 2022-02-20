@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Business.DependencyResolvers.Autofac
-{
+{//DependencyResolvers türkçesi bağımlılık çözümlemeleri demek.
     public class AutofacBusinessModule: Module 
     {
         protected override void Load(ContainerBuilder builder)
@@ -31,7 +31,7 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 
-            //Aşağıdaki kodu kaldırdık. Core katmanı Utilities > IoC kalsörüleri içine ICoreModule interface'ine taşıdık.
+            //Aşağıdaki kodu kaldırdık. Startup.cs de var oadanda Core katmanı Utilities > IoC kalsörüleri içine ICoreModule interface'ine taşıdık. Tüm apilerimizde kullanabilelim diye.
             //builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>();//Burada HttpContextAccessor using Microsoft.AspNetCore.Http; ekli old. halde hata veriyor. using Microsoft.AspNetCore.Http; paketini yükle diyor buda sürüm sorunu var demektir. Ampülden yükle dedik ama yine sorun çözülmedi. *** Çözüldü : Postmande Authorization bilgisi vermediğimiz için SecuredOperation.cs HttpContext oluşmuyor. GraphQL sağıda Text yazıyorsa onu JSON yapmayı unutma yoksa "415 unsupported media type" hatası veriyor.
 
 

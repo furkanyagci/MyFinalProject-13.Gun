@@ -15,6 +15,7 @@ namespace Business.Abstract
         IDataResult<List<ProductDetailDto>> GetProductDetails();
         IDataResult<Product> GetById(int productId);//Bunu gerçek hayatta ürün detayına girmek istiyorsunuz basıyorsunuz ürün detay geliyor o tip işlemlerde bu kullanılıyor.
         IResult Add(Product product);
+        IResult AddTransactionalTest(Product product);//Sql deki Transaction mantığını kurgulamak için bu metodu yazdık.
 
     }
 }

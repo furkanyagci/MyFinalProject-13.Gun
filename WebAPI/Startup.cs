@@ -1,5 +1,7 @@
 using Business.Abstract;
 using Business.Concrete;
+using Core.DependencyResolvers;
+using Core.Extensions;
 using Core.Utilities.IoC;
 using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.JWT;
@@ -40,7 +42,9 @@ namespace WebAPI
             //services.AddSingleton<IProductService, ProductManager>();
             //services.AddSingleton<IProductDal, EfProductDal>();//IoC yapýlandýrmayý yani hangi interface'in karþýlýðý nedir yapýlandýrmasýný WebAPI'de yaparsak ileride bu projeye bir API daha eklersek yada bambaþka bir servis mimarisi eklemek istersek bütün konfigurasyonumuz WebAPI de kalýyor o yüzden bu yapýlanmayý bu Starup.cs de deðilde daha backend'de yapmalýyýz oda Autofac'dir. Business sað týk NuGet autofac yaz 6.1 version kur. sonra autofac.extras yaz Autofac.Extras.DynamicProxy yazaný seç 6.0.0 versiyonunu kur. Straup.cs yapýtýðýmýz iþlemleri Business katmanýna taþýyacaðýz.
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//14. Gün sonunda çýkan hatayý bu kod ve aþaðýdaki ServiceTool.Create(services) kodu ile çözdük.
+
+            //Bu kodu  Core > Utilities > DependencyResolvers > CoreModule aktardýk. buradan sildi hoca
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();//*** 14. Gün sonunda çýkan hatayý bu kod ve aþaðýdaki ServiceTool.Create(services) kodu ile çözdük. HttpContextAccessor kullanýcýnýn her yaptýðý istekle oluþan context. Ýsteðin baþlangýcýndan bitiþine kadar o kullanýcýnýn o isteðini HttpContextAccessor yapar. *** Bu injection olayý bizim farklý API'lerimizde olsa oradada kullanacaðýz o yüzden Core tarafýna aktaracaðýz. Core > Utilities > DependencyResolvers > CoreModule aktardýk.
 
 
             //14.Gunde eklendi
@@ -60,7 +64,18 @@ namespace WebAPI
                         IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                     };
                 });
-            ServiceTool.Create(services);//14. Gün sonunda çýkan hatayý bu kod ile çözdük.
+
+            //ServiceTool.Create(services); bu kod bizden servisleri istiyor. BU kodu sildik çünkü geçiçi bir çözümdü bunun yerine aþaðýsýndaki kodu yazdýk.
+            //ServiceTool.Create(services);//*** 14. Gün sonunda çýkan hatayý bu kod ile çözdük. HttpContextAccessor devreye girmiyordu bu kodla devreye sokduk.
+
+            services.AddDependencyResolvers(new ICoreModule[] {
+            new CoreModule()
+            }); /*Þuanda Sadece CoreModule var ama bunun gibi daha çok Module olabilir o yüzden AddDependencyResolvers yaptýk birden fazla olursa bu þekilde ekleyebiliriz. Core katmanýnda Extensions klasörüne ServiceCollectionExtensions.cs ekledik.
+
+            (new ICoreModule[] {
+            new CoreModule()
+            }); bu ekleme þekli dizi old. için yarýn baþla bir Module geldiðinde araya virgül atýp buraya ekleyebiliriz. 
+            */
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
